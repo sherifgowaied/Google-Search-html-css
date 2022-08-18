@@ -1,5 +1,5 @@
 ### Google-Search-html-css
-Static Google search and google advanced search with html and css only Training project
+Static Google search and google advanced search with html and css only Training project.
 
 ### Google search
   <img src="https://i.imgur.com/vnuaHuI.png" width="1000px"/>
