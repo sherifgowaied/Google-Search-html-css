@@ -1,0 +1,182 @@
+body{
+ margin:0;
+ font-family:arial,sans-serif;
+ font-size:0.9em;
+}
+a{
+ margin:5px;
+ color:black;
+ text-decoration:none;
+}
+a:hover{
+ text-decoration:underline;
+}
+nav{
+ display:flex;
+ justify-content:space-between;
+}
+.header-nav{
+ display:flex;
+ align-items:center;
+ padding-left:20px;
+ margin-right:10px;
+}
+ul > a
+{
+ padding: 0 8px;
+}
+ul > button , ul > img
+{
+ margin:8px;
+}
+ul > img:hover
+{
+ box-shadow:0 0 25px 0 #9B9898;
+ cursor:pointer;
+}
+section
+{
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+ margin-top:60px;
+}
+@font-face
+{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/productsa...) format('woff2')
+}
+
+h1
+{
+ font-size:6.3em;
+}
+.my-input-container{
+ display:flex;
+ justify-content:space-between;
+ width:550px;
+ margin-top:20px;
+ height:38px;
+ border:1px solid gainsboro;
+ border-radius:20px;
+}
+.my-input-container:hover
+{
+ box-shadow:0 0 25px 0 gainsboro;
+
+}
+.my-input-container > img{
+ margin:5px;
+}
+.my-input-container > input
+{
+ flex-grow:1;
+ border:none;
+ outline:none;
+}
+.my-button-container{
+ align-items:center;
+ padding:58px;
+ margin-left:40px;
+}
+.my-button-container > button{
+ background-color:#f8f9fa;
+ border-radius:10px;
+ margin: 0 30px;
+ height:36px;
+ padding:0 20px;
+ border:none;
+}
+.my-button-container > button:hover
+{
+ box-shadow:0 0 20px 0 gainsboro;
+ background-Color:#f8f9fa;
+ cursor:pointer;
+}
+footer
+{
+ background-color:#f2f2f2;
+ position:fixed;
+ bottom:0;
+ width:100vw;
+ padding-left:10px;
+ padding-right:10px;
+}
+#footer-left
+{
+ display:flex;
+ align-items:center;
+}
+#footer-right
+{
+ display:flex;
+ align-items:center;
+}
+@media (max-width:630px){
+ #footer-nav
+ {
+  flex-direction:column;
+ }
+ #footer-left
+ {
+  justify-content:center;
+ }
+ #footer-right
+ {
+  justify-content:center;
+ }
+ .my-input-container
+ {
+  width:95vw;
+ }
+
+}
+@media (max-height : 520px)
+{
+ body
+ {
+  overflow-x:hidden;
+ }
+ section
+ {
+  margin-bottom:20px;
+ }
+ footer
+ {
+  position:relative;
+ }
+}
+@media (max-height:570px) and (max-width:620px)
+{
+ body
+ {
+  overflow-x:hidden;
+ }
+ section
+ {
+  margin-bottom:13px;
+ }
+ footer
+ {
+  position:relative;
+ }
+}
+#camera:hover
+{
+ box-shadow:0 0 20px 0 gainsboro;
+ background-Color:#f8f9fa;
+ cursor:pointer;
+}
+#lucky-link:hover
+{
+ text-decoration:none;
+ color:black;
+}
+#button:hover
+{
+ underline:none;
+ text-decoration:none;
+}
+
